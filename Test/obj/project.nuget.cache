@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AjPBmBPVNyWywMd8JIIqsRjPx7po//Z4BcJARttWsFXDAimD7ocfVf8QSDnH3OA0NBMsjiDbTrhEYq4jkFzl9w==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\BertTokenizers\\Test\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gevor\\.nuget\\packages\\berttokenizers\\1.2.0\\berttokenizers.1.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
