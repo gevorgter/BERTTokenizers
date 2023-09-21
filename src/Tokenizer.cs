@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OneDiligenceCDNDto;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -126,5 +127,21 @@ public class Tokenizer
         }
         if (bld.Length != 0)
             yield return bld.ToString();
+    }
+
+    public List<(string Word, long InputId, long AttentionMask)> PrepareEntitiesForAI(List<OcrConverterEntity> entities)
+    {
+        var bld = new StringBuilder();
+        foreach (var ent in entities)
+        {
+            if (ent.tp == OneDiligenceCDNDto.OcrConverterEntity.TYPE.WORD)
+            {
+                bld.Append(ent.val);
+                bld.Append(' ');
+            }
+        }
+        string text = bld.ToString();
+        var rs = Encode(text, 512, 512);
+        return rs;
     }
 }

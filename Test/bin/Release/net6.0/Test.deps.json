@@ -8,13 +8,13 @@
     ".NETCoreApp,Version=v6.0": {
       "Test/1.0.0": {
         "dependencies": {
-          "BERTTokenizers": "1.2.0"
+          "BERTTokenizers": "1.1.0"
         },
         "runtime": {
           "Test.dll": {}
         }
       },
-      "BERTTokenizers/1.2.0": {
+      "BERTTokenizers/1.1.0": {
         "runtime": {
           "BERTTokenizers.dll": {}
         }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BERTTokenizers/1.2.0": {
+    "BERTTokenizers/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -2,26 +2,20 @@
 
   <PropertyGroup>
     <TargetFrameworks>net6.0</TargetFrameworks>
-    <Authors>Nikola M. Zivkovic</Authors>
-    <Company>Rubik's Code (rubikscode.net)</Company>
-    <Copyright>Rubik's Code</Copyright>
-    <PackageIcon>logo.png</PackageIcon>
+    <Authors>George Ter</Authors>
+    <Company></Company>
+    <Copyright>https://github.com/gevorgter/BERTTokenizers</Copyright>
     <PackageIconUrl />
-    <RepositoryType>S</RepositoryType>
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <RepositoryType></RepositoryType>
     <RepositoryUrl>https://github.com/NMZivkovic/BertTokenizers</RepositoryUrl>
     <PackageProjectUrl>https://github.com/NMZivkovic/BertTokenizers</PackageProjectUrl>
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <Description>This package contains tokenizers for following models:
-    · BERT Base
-    · BERT Large
-    · BERT German
-    · BERT Multilingual
-    · BERT Base Uncased
-    · BERT Large Uncased</Description>
+    <Description></Description>
     <PackageReleaseNotes>Open-source project for BERT tokenizers that can be used in C#.</PackageReleaseNotes>
     <PackageTags>BERT, Tokenizer, charp, dotnet</PackageTags>
-    <Version>1.2.0</Version>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>BERTTokenizer</Title>
+    <PackageId>GBertTokenizer</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -52,5 +46,9 @@
       <CopyToPublishDirectory>Always</CopyToPublishDirectory>
       <PackageCopyToOutput>true</PackageCopyToOutput>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\OneDiligenceCDN\OnDiligenceCDNDto\OneDiligenceCDNDto.csproj" />
   </ItemGroup>
 </Project>

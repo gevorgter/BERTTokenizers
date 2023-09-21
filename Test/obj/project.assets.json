@@ -2,20 +2,20 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "BERTTokenizers/1.2.0": {
+      "GBertTokenizer/1.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/BERTTokenizers.dll": {}
+          "bin/placeholder/GBertTokenizer.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BERTTokenizers.dll": {}
+          "bin/placeholder/GBertTokenizer.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "BERTTokenizers/1.2.0": {
+    "GBertTokenizer/1.1.0": {
       "type": "project",
       "path": "../src/BERTTokenizers.csproj",
       "msbuildProject": "../src/BERTTokenizers.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BERTTokenizers >= 1.2.0"
+      "GBertTokenizer >= 1.1.0"
     ]
   },
   "packageFolders": {

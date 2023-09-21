@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Projects\\BertTokenizers\\src\\BERTTokenizers.csproj": {
-      "version": "1.2.0",
+      "version": "1.1.0",
       "restore": {
         "projectUniqueName": "C:\\Projects\\BertTokenizers\\src\\BERTTokenizers.csproj",
-        "projectName": "BERTTokenizers",
+        "projectName": "GBertTokenizer",
         "projectPath": "C:\\Projects\\BertTokenizers\\src\\BERTTokenizers.csproj",
         "packagesPath": "C:\\Users\\gevor\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\BertTokenizers\\src\\obj\\",
