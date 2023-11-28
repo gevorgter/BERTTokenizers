@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "I0/btjPf58taE8ZElD3fvP+Y+mahBEbcavD4H3qCAA7t+5Kyu78fjzwQFHjmrpGveRqrNwZCaIA7HigQqxnu9w==",
+  "dgSpecHash": "QKcSyuxXQkdHhiVjQXwP9RvgsVesybwIs/Dj1fsKbuCtxq8YUR5Xp4IVv6BSDEaV8n0UJJPYCxTLW8G61ucWDQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\BertTokenizers\\Test\\Test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gevor\\.nuget\\packages\\gberttokenizer\\1.1.0\\gberttokenizer.1.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

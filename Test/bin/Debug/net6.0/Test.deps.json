@@ -8,15 +8,24 @@
     ".NETCoreApp,Version=v6.0": {
       "Test/1.0.0": {
         "dependencies": {
-          "BERTTokenizers": "1.2.0"
+          "GBertTokenizer": "1.1.0",
+          "BERTTokenizers": "1.1.0.0"
         },
         "runtime": {
           "Test.dll": {}
         }
       },
-      "BERTTokenizers/1.2.0": {
+      "GBertTokenizer/1.1.0": {
         "runtime": {
           "BERTTokenizers.dll": {}
+        }
+      },
+      "BERTTokenizers/1.1.0.0": {
+        "runtime": {
+          "BERTTokenizers.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
         }
       }
     }
@@ -27,8 +36,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BERTTokenizers/1.2.0": {
+    "GBertTokenizer/1.1.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BERTTokenizers/1.1.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

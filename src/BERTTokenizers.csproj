@@ -19,36 +19,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Vocabularies\base_cased.txt" />
-    <None Remove="Vocabularies\base_cased_large.txt" />
-    <None Remove="Vocabularies\base_uncased.txt" />
-    <None Remove="Vocabularies\base_uncased_large.txt" />
+    <None Remove="vocab.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Vocabularies\base_cased.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-    </Content>
-    <Content Include="Vocabularies\base_cased_large.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-    </Content>
-    <Content Include="Vocabularies\base_uncased.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-    </Content>
-    <Content Include="Vocabularies\base_uncased_large.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
-      <PackageCopyToOutput>true</PackageCopyToOutput>
-    </Content>
+    <EmbeddedResource Include="vocab.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\OneDiligenceCDN\OnDiligenceCDNDto\OneDiligenceCDNDto.csproj" />
+    <None Update="Vocabularies\base_cased.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+    </None>
+    <None Update="Vocabularies\base_cased_large.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+    </None>
+    <None Update="Vocabularies\base_uncased.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+    </None>
+    <None Update="Vocabularies\base_uncased_large.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+    </None>
   </ItemGroup>
 </Project>
